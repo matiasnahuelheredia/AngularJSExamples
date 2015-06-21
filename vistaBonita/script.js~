@@ -1,0 +1,33 @@
+var app =angular.module("AppLip",[]);
+app.controller("FirstController",function($scope,$http){
+	$scope.nombres =[];
+	$scope.mostrar = 0;
+	$scope.busqueda = "";
+	$scope.nombreMostrar= "+";
+	$http.get('http://jsonplaceholder.typicode.com/posts')
+	.success(function(data){
+	   console.log(data);
+	   $scope.nombres=data;
+	})
+	.error(function(err){
+	});
+
+	$scope.ocultarTodo = function(){
+		
+		if ($scope.mostrar==0)
+		{
+		$scope.nombreMostrar="-";
+		$scope.mostrar = 1;
+		}
+		else
+		{
+		$scope.nombreMostrar="+";
+		$scope.mostrar = 0;
+		}
+	}
+	
+
+
+	
+
+});

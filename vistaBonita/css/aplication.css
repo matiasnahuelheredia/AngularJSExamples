@@ -1,0 +1,82 @@
+.busquedaLateral
+{
+border:0px;
+margin:0px;
+width:220px;
+background: #cedce7; /* Old browsers */
+background: -moz-linear-gradient(left,  #cedce7 0%, #596a72 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#cedce7), color-stop(100%,#596a72)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #cedce7 0%,#596a72 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #cedce7 0%,#596a72 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #cedce7 0%,#596a72 100%); /* IE10+ */
+background: linear-gradient(to right,  #cedce7 0%,#596a72 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 ); /* IE6-9 */
+box-shadow: 2px 2px 5px #999;
+border-radius: 5px;
+
+}
+
+.FormularioDeBusqueda
+{
+border:0px;
+margin:0px 0px 5px 0px;
+padding:10px;
+height:20px;
+width:200px;
+background: #cedce7; /* Old browsers */
+background: -moz-linear-gradient(left,  #cedce7 0%, #596a72 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#cedce7), color-stop(100%,#596a72)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #cedce7 0%,#596a72 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #cedce7 0%,#596a72 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #cedce7 0%,#596a72 100%); /* IE10+ */
+background: linear-gradient(to right,  #cedce7 0%,#596a72 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 ); /* IE6-9 */
+box-shadow: 2px 2px 5px #999;
+border-radius: 5px;
+}
+
+.items
+{
+font-family: "Times New Roman", Times, serif;
+font-size:20px;
+
+animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 0%;
+    width: 300%;
+  }
+
+  to {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
+.items:hover
+{
+color:red;
+}
+
+
+.barraDeMenu
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	height:20px;
+	width:200px;
+	background: red;
+	box-shadow: 2px 2px 5px #999;
+border-radius: 5px;
+}
+    
+
+
+body
+{
+margin:0px;
+background: #cedce7; /* Old browsers */
+}
